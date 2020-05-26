@@ -1,0 +1,23 @@
+{
+   "type": "mssql",
+   "host": "DESKTOP-72J56BU",
+   "username": "archiestrange",
+   "password": "thisismydbpassword123",
+   "database": "mylocaldb",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
